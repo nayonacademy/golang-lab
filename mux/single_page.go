@@ -1,18 +1,14 @@
 package main
 
-import "net/http"
-
-import "path/filepath"
-
-import "os"
-
-import "github.com/gorilla/mux"
-
-import "encoding/json"
-
-import "time"
-
-import "log"
+import (
+	"encoding/json"
+	"github.com/gorilla/mux"
+	"log"
+	"net/http"
+	"os"
+	"path/filepath"
+	"time"
+)
 
 type spaHandler struct {
 	staticPath string
