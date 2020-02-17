@@ -1,12 +1,11 @@
 package main
 
-import "net"
-
-import "bufio"
-
-import "fmt"
-
-import "strings"
+import (
+	"net"
+	"bufio"
+	"fmt"
+	"strings"
+)
 
 func main() {
 	ln, _ := net.Listen("tcp", ":8082")
