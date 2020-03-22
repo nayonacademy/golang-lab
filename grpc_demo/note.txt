@@ -1,0 +1,2 @@
+https://blog.francium.tech/learn-grpc-and-protobuf-with-golang-8456a2e64977
+`protoc --go_out=. *.proto` ≈
